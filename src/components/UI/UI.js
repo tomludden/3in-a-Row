@@ -1,4 +1,8 @@
 export function createGameUI() {
+  const app = document.createElement('div')
+  app.id = 'app'
+  document.body.appendChild(app)
+
   const header = document.createElement('h1')
   header.textContent = '3 in a Row'
   document.body.appendChild(header)

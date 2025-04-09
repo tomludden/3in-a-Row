@@ -5,7 +5,7 @@ export function initButtons(startGame, resetGame) {
   homeBtn.id = 'home-btn'
   homeBtn.textContent = '<'
   homeBtn.addEventListener('click', () => {
-    window.location.href = '/home' // Navigate to home
+    window.location.href = '/' // Navigate to home
   })
   document.body.appendChild(homeBtn)
   const isGameActive = false
